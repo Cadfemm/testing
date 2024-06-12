@@ -7,12 +7,9 @@ import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-
-import Output from "./pages/Output";
 import Signup from "./pages/Signup";
 import SpinalInjury from "./pages/SpinalInjury";
 import stroke from "./pages/stroke";
-import latest from "./pages/Carddisplay.js";
 
 function App() {
   return (
@@ -29,12 +26,10 @@ function App() {
           <Route path="/menu" exact component={Menu} />
           <Route path="/about" exact component={About} />
           <Route path="/contact" exact component={Contact} />
-
-          <Route path="/Output" exact component={Output} />
           <Route path="/" exact component={Login} />
           <Route path="/Signup" exact component={Signup} />
           <Route path="/Spinalinjury" exact component={SpinalInjury} />
-          <Route path="/Modalities" exact component={latest} />
+          
           <Route path="/stroke" exact component={stroke} />
         </Switch>
 

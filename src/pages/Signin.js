@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import "../styles/Signin.css";
-import Logo from "../assets/cadfem-logo.png";
-import Logo2 from "../assets/strategic-ventures-logo-dark.png";
 import Loginnav from "../components/Loginnav"
 
 import PizzaLeft from "../assets/login3.svg";
